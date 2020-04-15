@@ -7,101 +7,105 @@
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+ *
+ *
+ *  Traduit par: Loan TALVAT / contact@loan-dev.fr
+ *
  */
 
 return [
-    'component' => [
+    'composant' => [
         'status_update' => [
             'mail' => [
-                'subject'  => 'Component Status Updated',
-                'greeting' => 'A component\'s status was updated!',
-                'content'  => ':name status changed from :old_status to :new_status.',
-                'action'   => 'View',
+                'subject' => 'État du composant mis à jour',
+                'greeting' => 'Le statut d\'un composant a été mis à jour!',
+                'content' => 'Le statut :name est passé de :old_status à :new_status.',
+                'action' => 'Afficher',
             ],
             'slack' => [
-                'title'   => 'Component Status Updated',
-                'content' => ':name status changed from :old_status to :new_status.',
+                'title' => 'Statut du composant mis à jour',
+                'content' => 'Le statut :name est passé de :old_status à :new_status.',
             ],
             'sms' => [
-                'content' => ':name status changed from :old_status to :new_status.',
+                'content' => 'Le statut :name est passé de :old_status à :new_status.',
             ],
         ],
     ],
     'incident' => [
         'new' => [
             'mail' => [
-                'subject'  => 'New Incident Reported',
-                'greeting' => 'A new incident was reported at :app_name.',
-                'content'  => 'Incident :name was reported',
-                'action'   => 'View',
+                'subject' => '⚠️ Nouvel incident signalé ⚠️',
+                'greeting' => 'Un nouvel incident a été signalé sur :app_name.',
+                'content' => 'Incident :name a été signalé',
+                'action' => 'Afficher',
             ],
             'slack' => [
-                'title'   => 'Incident :name Reported',
-                'content' => 'A new incident was reported at :app_name',
+                'title' => 'Incident :name signalé',
+                'content' => 'Un nouvel incident a été signalé sur :app_name',
             ],
             'sms' => [
-                'content' => 'A new incident was reported at :app_name.',
+                'content' => 'Un nouvel incident a été signalé sur :app_name.',
             ],
         ],
         'update' => [
             'mail' => [
-                'subject' => 'Incident Updated',
-                'content' => ':name was updated',
-                'title'   => ':name was updated to :new_status',
-                'action'  => 'View',
+                'subject' => '🔔 Incident mis à jour 🔔',
+                'content' => ':name a été mis à jour',
+                'title' => ':name a été mis à jour pour :new_status',
+                'action' => 'Afficher',
             ],
             'slack' => [
-                'title'   => ':name Updated',
-                'content' => ':name was updated to :new_status',
+                'title' => ': nom mis à jour',
+                'content' => ': le nom a été mis à jour vers: new_status',
             ],
             'sms' => [
-                'content' => 'Incident :name was updated',
+                'content' => 'Incident: le nom a été mis à jour',
             ],
         ],
     ],
     'schedule' => [
         'new' => [
             'mail' => [
-                'subject' => 'New Schedule Created',
-                'content' => ':name was scheduled for :date',
-                'title'   => 'A new scheduled maintenance was created.',
-                'action'  => 'View',
+                'subject' => 'Nouvelle planification créée',
+                'content' => ':name était prévu pour :date',
+                'title' => 'Une nouvelle maintenance planifiée a été créée.',
+                'action' => 'Afficher',
             ],
             'slack' => [
-                'title'   => 'New Schedule Created!',
-                'content' => ':name was scheduled for :date',
+                'title' => 'Nouvelle programmation créée!',
+                'content' => ':name était prévu pour :date',
             ],
             'sms' => [
-                'content' => ':name was scheduled for :date',
+                'content' => ':name était prévu pour :date',
             ],
         ],
     ],
     'subscriber' => [
         'verify' => [
             'mail' => [
-                'subject' => 'Verify Your Subscription',
-                'content' => 'Click to verify your subscription to :app_name status page.',
-                'title'   => 'Verify your subscription to :app_name status page.',
-                'action'  => 'Verify',
+                'subject' => 'Confirmer votre abonnement',
+                'content' => 'Cliquez pour confirmer votre abonnement à la page de statut :app_name.',
+                'title' => 'Confirmer votre abonnement à la page de statut :app_name.',
+                'action' => 'Vérifier',
             ],
         ],
     ],
     'system' => [
         'test' => [
             'mail' => [
-                'subject' => 'Ping from Cachet!',
-                'content' => 'This is a test notification from Cachet!',
-                'title'   => '🔔',
+                'subject' => 'Ping de Cachet!',
+                'content' => 'Ceci est une notification de test de Cachet!',
+                'title' => '🔔',
             ],
         ],
     ],
     'user' => [
         'invite' => [
             'mail' => [
-                'subject' => 'Your invitation is inside...',
-                'content' => 'You have been invited to join :app_name status page.',
-                'title'   => 'You\'re invited to join :app_name status page.',
-                'action'  => 'Accept',
+                'subject' => 'Une invitation vous attend ...',
+                'content' => 'Vous avez été invité à rejoindre :app_name.',
+                'title' => 'Vous êtes invité à rejoindre la page de status :app_name.',
+                'action' => 'Accepter',
             ],
         ],
     ],

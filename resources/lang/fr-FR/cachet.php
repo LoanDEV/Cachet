@@ -23,8 +23,8 @@ return [
         'group' => [
             'other' => 'Autres composants',
         ],
-        'select_all'   => 'Select All',
-        'deselect_all' => 'Deselect All',
+        'select_all'   => 'Tout sélectionner',
+        'deselect_all' => 'Tout déselectionner',
     ],
 
     // Incidents
@@ -35,7 +35,7 @@ return [
         'scheduled'    => 'Maintenance',
         'scheduled_at' => ', planifé à :timestamp',
         'posted'       => 'Posté à :timestamp',
-        'posted_at'    => 'Posted at :timestamp',
+        'posted_at'    => 'Posté à :timestamp',
         'status'       => [
             1 => 'Enquête en cours',
             2 => 'Identifié',
@@ -77,13 +77,13 @@ return [
 
     // Subscriber
     'subscriber' => [
-        'subscribe'           => 'Subscribe to status changes and incident updates',
-        'unsubscribe'         => 'Unsubscribe',
+        'subscribe'           => 'Abonnez-vous aux changements de statut et aux mises à jour des incidents',
+        'unsubscribe'         => 'Se désabonner',
         'button'              => 'S\'abonner',
         'manage_subscription' => 'Manage subscription',
         'manage'              => [
             'notifications'       => 'Notifications',
-            'notifications_for'   => 'Manage notifications for',
+            'notifications_for'   => 'Gérer les notifications pour',
             'no_subscriptions'    => 'Vous êtes actuellement abonné à toutes les mises à jour.',
             'update_subscription' => 'Update Subscription',
             'my_subscriptions'    => 'Vous êtes actuellement abonné aux mises à jour suivantes.',
@@ -127,9 +127,9 @@ return [
     // Meta descriptions
     'meta' => [
         'description' => [
-            'incident'  => 'Details and updates about the :name incident that occurred on :date',
-            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
-            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'incident'  => 'Détails et mises à jour sur l\'incident :name survenu le :date',
+            'schedule'  => 'Détails sur la période de maintenance planifiée :name commençant :startDate',
+            'subscribe' => 'Abonnez-vous à: l\'application pour recevoir des mises à jour des incidents et des périodes de maintenance planifiées',
             'overview'  => 'Restez à jour avec les dernières mises à jour de :app.',
         ],
     ],

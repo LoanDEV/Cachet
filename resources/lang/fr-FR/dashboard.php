@@ -35,7 +35,7 @@ return [
                 'failure' => 'Something went wrong updating the incident update',
             ],
         ],
-        'reported_by'              => 'Reported by :user',
+        'reported_by'              => 'Rapporté par :user',
         'add'                      => [
             'title'   => 'Ajouter un incident',
             'success' => 'Incident ajouté.',
@@ -83,13 +83,13 @@ return [
             'failure' => 'Something went wrong adding the Maintenance, please try again.',
         ],
         'edit' => [
-            'title'   => 'Edit Maintenance',
-            'success' => 'Maintenance has been updated!',
-            'failure' => 'Something went wrong editing the Maintenance, please try again.',
+            'title'   => 'Modifier la maintenance',
+            'success' => 'La maintenance a été mise à jour!',
+            'failure' => 'Une erreur s\'est produite lors de la modification de la maintenance, veuillez réessayer.',
         ],
         'delete' => [
-            'success' => 'The Maintenance has been deleted and will not show on your status page.',
-            'failure' => 'The Maintenance could not be deleted, please try again.',
+            'success' => 'La maintenance a été supprimée et n\'apparaîtra pas sur votre page d\'état.',
+            'failure' => 'La maintenance n\'a pas pu être supprimée, veuillez réessayer.',
         ],
     ],
 
